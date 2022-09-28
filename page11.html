@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="globalStyles.css">
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  <script src="./script.js" defer></script>
+  <title>Web Pages for Babies</title>
+</head>
+<body>
+  <style type="text/css">
+    @import url(page11.css);
+  </style>
+  <h1>Code is amazing!</h1>
+  <div class="prop grass"></div>
+  <div class="prop sun ball"></div>
+  <div class="cloud prop" style="left:10px;top:10px;"></div>
+  <script type="text/javascript">
+    const colors = ["red","orange","yellow","aqua","purple","violet"]
+    const grass = document.querySelector(".grass")
+    colors.forEach((color) =>{
+      for(let i = 0; i < 20; i++){
+        grass.innerHTML += `<div class="flower"
+        style="top:${Math.random()*18}vh; left:${Math.random()*99}vw; background-color:${color};">
+        </div>`
+      }
+    })
+  </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-size: calc(12px + 5vh);
+  font-weight: 300;
+}
+body{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: lightblue ;
+  font-family: 'Londrina Solid', Geneva, Tahoma, sans-serif;
+}
+.ball{
+  border-radius: 50%;
+  height: 20vh;
+  width: 20vh;
+  background-color: blue ;
+  margin: 1vh;
+}
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  background-color: pink;
+  padding: 1vh;
+  min-height: 20vh;
+  min-width: 50vw;
+}
+.prop{
+  position: absolute;
+  top:0;
+  left: 0;
+}
+h1,h2,h3{
+  margin: 5vh;
+}
+code{
+  background-color: rgba(200,200,200,77);
+  border-radius: 10px;
+
+}
